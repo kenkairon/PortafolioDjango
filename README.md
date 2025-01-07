@@ -28,7 +28,7 @@ Educativo y de Aprendizaje Personal
     ```bash
     pip freeze > requirements.txt 
     
-5. Actulizamos el pip 
+5. Actualizamos el pip 
     ```bash
     python.exe -m pip install --upgrade pip
 
@@ -39,3 +39,15 @@ Educativo y de Aprendizaje Personal
 7. Ingresamos al proyecto 
     ```bash 
     cd portafolio
+
+8. creao una rama
+    ```bash 
+    git branch developer/cevasquez
+
+9. Ejecutar el commit
+    ```bash 
+   git commit -m "Configuración del Proyecto"
+
+10. lo subo a mi rama
+    ```bash 
+    git push origin developer/cevasquez

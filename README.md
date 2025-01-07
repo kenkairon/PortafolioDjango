@@ -51,3 +51,27 @@ Educativo y de Aprendizaje Personal
 10. lo subo a mi rama
     ```bash 
     git push origin developer/cevasquez
+
+11. Creo la app  AuthApp
+    ```bash 
+    python manage.py startapp AuthApp
+
+12. portafolio/settings.py
+    ```bash
+   
+    INSTALLED_APPS = [
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
+        'AuthApp',
+    ]
+
+12. lo subo a mi rama
+    ```bash 
+    git add .
+    git commit -m "Creación de la App AuthApp"
+    git push origin developer/cevasquez
+
